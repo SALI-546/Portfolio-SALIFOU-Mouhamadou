@@ -1,13 +1,13 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import compress from "astro-compress";
 import react from "@astrojs/react";
 import markdownConfig from './markdown.config';
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
-
 import robotsTxt from "astro-robots-txt";
+
+import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,12 +16,11 @@ export default defineConfig({
   markdown: {
     ...markdownConfig
   },
-  integrations: [
-    tailwind({
+  integrations: [tailwind({
     config: {
       applyBaseStyles: false
     }
-  }), compress(), react(), mdx({
+  }), react(), mdx({
     ...markdownConfig,
     syntaxHighlight: "shiki",
     shikiConfig: {
@@ -32,11 +31,8 @@ export default defineConfig({
       forward: ["dataLayer.push"]
     }
   }), robotsTxt({
-    sitemap: [
-      'https://www.rohitk06.site/sitemap-0.xml',
-      'http://www.rohitk06.site/sitemap-index.xml',
-    ],
-  })]
+    sitemap: ['https://www.rohitk06.site/sitemap-0.xml', 'http://www.rohitk06.site/sitemap-index.xml']
+  }), playformCompress()]
   // output: "server",
   // adapter: vercel({
   //   webAnalytics: {
