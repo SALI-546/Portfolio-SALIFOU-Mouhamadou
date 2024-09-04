@@ -10,85 +10,76 @@ const data = [
     {
         name: "Cart Management System",
         type: "WebApp",
-        url: "https://cart-system-sveltekit.vercel.app/",
-        github: "https://github.com/DevRohit06/cart-system-sveltekit",
+        url: "http://shoppingmhd.free.nf/?i=1",
+        github: "https://github.com/SALI-546/shopping-cart",
         image: CartManagementSystem,
         slug: "cart-management-system",
-        description: "This is a Cart Management System made using SvelteKit and Tailwind css with the help of FakeStoreAPI. it has two versions one with sveltekit and another with NextJS.",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'SvelteKit', 'NextJS']
+        description: "Cart Management System is a simple and efficient web application for managing an online shopping cart.",
+        tech: ['HTML', 'Javascript', 'Css', 'php','Bootstrap', ]
         
     },
     {
-        name: "LifeInsureEase",
+        name: "WEB Platforme",
         type: "Website",
-        url: "https://lifeinsureease.in/",
-        github: "https://github.com/DevRohit06/insurance-website",
+        url: "https://web-learning-platform.vercel.app/courses",
+        github: "https://github.com/SALI-546/Web-learning-platform",
         image: LifeInsureEase,
         slug: "lifeinsureease",
-        description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
+        description: "A user-friendly web application designed to enhance online learning experiences. It features an intuitive interface for navigating and managing educational content effectively. ",
+        tech: ['HTML', 'Javascript', 'Css',  'Reactjs']
 
     },
+    
     {
-        name: "Portfolio Website",
+        name: "to-do-list-groupe-frml",
         type: "Website",
-        url: "https://rohitk06.site/",
-        github: "https://github.com/DevRohit06/Portfolio-website",
-        image: Portfolio,
-        slug: "portfolio",
-        description: "This is my Portfolio website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
-    },
-    {
-        name: "DocAid",
-        type: "Website",
-        url: "https://doc-aid.vercel.app/",
-        github: 'https://github.com/DevRohit06/DocAid',
+        url: "https://to-do-list-groupe-frml.vercel.app/",
+        github: 'https://github.com/SALI-546/TO-DO-LIST-GROUPE-FRML/tree/main',
         image: docAid,
         slug: "docaid",
-        description: "Website template for Health related businesses",
-        tech: ['HTML', 'Javascript', 'CSS', 'Tailwind css', 'ReactJS']
+        description: "A simple application for managing tasks, offering an intuitive interface to organize and track your daily tasks.",
+        tech: ['HTML', 'Javascript', 'CSS', ]
     },
     {
-        name: "DevBlogs",
+        name: "Weather App",
         type: "WebApp",
-        url: "https://www.devblogs.xyz/",
-        github: "https://github.com/DevRohit06/blog",
+        url: "https://application-meteo.vercel.app/",
+        github: "https://github.com/SALI-546/APPLICATION-METEO",
         image: blog,
         slug: "devblogs",
-        description: "This is a Blogging website made for technology lovers.",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Markdown']
+        description: "WeatherApp is an intuitive web application that provides real-time weather forecasts. It allows users to search for and view current and upcoming weather conditions for any city in the world.",
+        tech: ['HTML', 'Javascript', 'Css', ' bootstrap', 'API openweathermap', ]
     },
     {
-        name: "Ras Production",
-        type: "Website",
-        url: "https://rasproduction.vercel.app/",
-        github: "https://github.com/DevRohit06/videography-website",
+        name: "Frontend Mentor",
+        type: "projet defis",
+        url: "https://projet-defis-pront-end.vercel.app/",
+        github: "https://github.com/SALI-546/projet-defis-pront-end-",
         image: ras,
         slug: "ras",
-        description: "This is an Portfolio website for videography businesses made using HTML, Javascript, Css and Tailwind css it practices modern ui with dark theme ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css']
+        description: "Frontend Mentor - Interactive Comments Section is a dynamic user interface that allows users to post, reply, and manage comments intuitively. ",
+        tech: ['HTML', 'Javascript', 'Css',]
     },
     {
-        name: "Joke Generator",
+        name: "REACT-EXP-deploy",
         type: "WebApp",
-        url: "https://jokes-generator-with-api.vercel.app/",
-        github: "https://github.com/DevRohit06/Jokes-Generator-With-API",
+        url: "https://react-exp-deploy.vercel.app/",
+        github: "https://github.com/SALI-546/REACT-EXP-deploy",
         image: joke,
         slug: "joke",
-        description: "The website which generates joke with multi topics such as anime, programming, etc.",
-        tech: ['React', 'Javascript', 'Css', 'Tailwind css', 'express', 'nodejs']
+        description: "A local file manager for displaying various media types in a web application, similar to Google Drive, Microsoft OneDrive, and Apple iCloud.",
+        tech: ['React', 'Javascript', 'Css', 'html',]
     },
 
     {
-        name: "Lofi Beats",
+        name: "Simple-teaching-platform",
         type: "Website",
-        url: "https://lofibeats-3oo4q8gbg-lofi.vercel.app/",
-        github: "https://github.com/Lofi-Beats/lofibeats",
+        url: "https://simple-teaching-platform.vercel.app/",
+        github: "https://github.com/SALI-546/Simple-teaching-platform",
         image: lofi,
         slug: "lofibeats",
-        description: "Website that was built for Discord music bot named lofi beats built using plain html javascript and tailwind css",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css']
+        description: "A straightforward and intuitive platform designed to facilitate online learning",
+        tech: ['HTML', 'Javascript', 'Css', ]
     },
 ]
 

@@ -13,7 +13,7 @@ export default function IndexNav() {
                   aria-label="menuButton"
                   onClick={() => {
                     isShow(!show);
-                  }}
+                  }} 
                   className="bg-primary  font-bold px-4 py-1 rounded-t-xl cursor-pointer"
                 >
                   {show ? (
