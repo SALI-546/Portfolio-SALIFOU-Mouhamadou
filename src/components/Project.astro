@@ -3,13 +3,12 @@ import { Image } from "astro:assets";
 import { getData } from "../utils/projects";
 const data = getData();
 ---
-
-<section id="projects" class="text-primary body-font w-5/6 mx-auto">
-  <div class="py-24 mx-auto">
+<section id="projects" class="text-primary body-font w-5/6 -mt-28">
+  <div class="py-1 ">
     <h1
       data-aos="fade-up"
       data-aos-anchor-placement="center-bottom"
-      class="mb-8 font-extrabold text-center text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#d7d7d7] to-[#616161]"
+      class="mb-0 font-extrabold text-center text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#d7d7d7] to-[#616161]"
     >
       Recent Projects
     </h1>
@@ -101,3 +100,8 @@ const data = getData();
     </div>
   </div>
 </section>
+<style is:inline>
+  :root {
+    --color: rgba(71, 71, 71, 0.918);
+  }
+</style>
